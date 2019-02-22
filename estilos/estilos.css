@@ -1,0 +1,41 @@
+
+
+body {
+
+	background-color: lightgreen;
+	align-items: center;
+}
+
+h1 {
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 20;
+	color: white;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+#div1 {
+	display: inline-block;
+	font-family: "Arial", Arial, sans-serif;
+	color: white;
+	width: 560px;
+	border: 30px solid yellow;
+	padding: 30px;
+	margin: 30px;
+	background-color: black;
+}
+
+audio {
+	align-content: center;
+}
+
+p {
+
+	text-align: center;
+}
+
+input{
+	text-align: center;
+}
