@@ -9,6 +9,7 @@ body {
 h1 {
 	font-family: "Arial", Arial, sans-serif;
 	font-size: 20;
+<<<<<<< HEAD
 	color: white;
 	text-align: center;
 }
@@ -21,12 +22,24 @@ h2{
 	font-family: "Arial", Arial, sans-serif;
 	color: white;
 	width: 560px;
+=======
+	color: green;
+	text-align: center;
+}
+
+div {
+	align-content: center;
+	font-family: "Arial", Arial, sans-serif;
+	color: white;
+	width: 300px;
+>>>>>>> 84551425f603a5a266f951e98227c215b652905a
 	border: 30px solid yellow;
 	padding: 30px;
 	margin: 30px;
 	background-color: black;
 }
 
+<<<<<<< HEAD
 audio {
 	align-content: center;
 }
@@ -38,4 +51,9 @@ p {
 
 input{
 	text-align: center;
+=======
+p {
+
+	text-align: center;
+>>>>>>> 84551425f603a5a266f951e98227c215b652905a
 }
