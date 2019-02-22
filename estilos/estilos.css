@@ -1,0 +1,30 @@
+
+
+body {
+
+	background-color: lightgreen;
+	align-items: center;
+}
+
+h1 {
+	font-family: "Arial", Arial, sans-serif;
+	font-size: 20;
+	color: green;
+	text-align: center;
+}
+
+div {
+	align-content: center;
+	font-family: "Arial", Arial, sans-serif;
+	color: white;
+	width: 300px;
+	border: 30px solid yellow;
+	padding: 30px;
+	margin: 30px;
+	background-color: black;
+}
+
+p {
+
+	text-align: center;
+}
