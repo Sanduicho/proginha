@@ -38,7 +38,11 @@ div {
 	background-color: black;
 }
 #div2{
+<<<<<<< HEAD
 	height: 475px;
+=======
+	height: 400px;
+>>>>>>> f108af2242184472ced12b751e98a9d07977bdbf
 	padding: 0px;
 }
 
