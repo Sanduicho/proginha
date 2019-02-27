@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<head>
+
+	<style type="text/css">
+		body{
+		background-image: url("dog.jpg");
+	}
+	</style>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+	<title></title>
+</head>
+<body>
+<h2>
+<div id="div2">
+	<img src="dog.jpg">
+	<h1 id="header1">Site de Progreber! :)</h1>
+	<a href="https://www.youtube.com/watch?v=arUC8L2jGxY">Checkout this video!</a>
+</div>
+
+<div id="div1" ng-app="" ng-init="myCol='lightblue';names=['Jao','Jorgin','Kaynao']">
+
+  <audio controls="">
+  	<source src="audio\som.mp3" type="audio/mpeg">
+  </audio>
+
+  <p>Name : <input type="text" ng-model="name";></p>
+
+  <h1>Olah {{name}}!</h1>
+
+  <p>O nome que voce digitou eh {{name}}!</p>
+
+   <p>O quanto eu gosto de pizza (0 a 10): {{ 5 + 5 }}</p>
+
+   <iframe <iframe width="560" height="315" src="https://www.youtube.com/embed/D-UmfqFjpl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <p>Digite sua cor favorita! </p><input style="background-color:{{myCol}}" ng-model="myCol">
+
+   <p> Preco da pizza<input type="number" ng-model="numero"></p>
+   <p>Quantidade de pizza<input type="number" ng-model="quant"></p>
+
+   <p>Custo da pizza: {{ quant * numero }}</p>
+
+	<ul>
+		<li ng-repeat="x in names">
+			{{x}}
+		</li>
+	</ul>	
+
+</div> 
+
+
+
+</h2>
+</body>
+</html>
