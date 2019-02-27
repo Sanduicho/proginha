@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 body {
@@ -38,11 +38,11 @@ div {
 	background-color: black;
 }
 #div2{
-<<<<<<< HEAD
+
 	height: 475px;
-=======
-	height: 400px;
->>>>>>> f108af2242184472ced12b751e98a9d07977bdbf
+
+	height: 475px;
+
 	padding: 0px;
 }
 
@@ -61,76 +61,4 @@ p {
 
 input{
 	text-align: center;
-
-p {
-
-	text-align: center;
-
-=======
-
-
-body {
-
-	background-color: lightgreen;
-	align-items: center;
-}
-
-h1 {
-	font-family: "Arial", Arial, sans-serif;
-	font-size: 20;
-<<<<<<< HEAD
-	color: white;
-	text-align: center;
-}
-h2{
-	text-align: center;
-}
-
-#div1 {
-	display: inline-block;
-	font-family: "Arial", Arial, sans-serif;
-	color: white;
-	width: 600px;
-	border: 30px solid yellow;
-	padding: 30px;
-	margin: 30px;
-	background-color: black;
-}
-
-div {
-	display: inline-block;
-	font-family: "Arial", Arial, sans-serif;
-	color: white;
-	width: 1000px;
-	border: 30px solid yellow;
-	padding: 30px;
-	margin: 30px;
-	background-color: black;
-}
-#div2{
-	height: 110px;
-	padding: 0px;
-}
-
-#header1{
-	text-align: top;
-}
-
-audio {
-	align-content: center;
-}
-
-p {
-
-	text-align: center;
-}
-
-input{
-	text-align: center;
-
-p {
-
-	text-align: center;
-
->>>>>>> 5374e23b9a3f3e4641f7c000c33a6c28dcd3f956
 }
